@@ -90,6 +90,7 @@ def atf_to_atp(cpaf):
 
 
 # Function to calculate the VEC of the alloy
+#here Cp we pass is {'Ti': 0.3333333333333333, 'Nb': 0.6666666666666666}
 def FVEC(Cp):
     VEC = 0
     for i in Cp:
