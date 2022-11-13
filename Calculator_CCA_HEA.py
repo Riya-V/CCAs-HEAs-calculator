@@ -77,6 +77,7 @@ def comp_dict(composition):
 
 
 # Normalize the composition in atomic fraction
+#{'Ti': 0.3333333333333333, 'Nb': 0.6666666666666666}
 def atf_to_atp(cpaf):
     Tmol = 0
     # cpap: composition atomic percent
