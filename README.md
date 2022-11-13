@@ -1,6 +1,5 @@
 # CCAs-HEAs-calculator
-Author: Fernando Henrique da Costa 
-fernando.henriquecosta@yahoo.com.br
+
 
 This code calculates some CCAs/HEAs parameters:
 - Atomic size difference
