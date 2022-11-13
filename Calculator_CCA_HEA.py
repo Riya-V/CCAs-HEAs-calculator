@@ -45,6 +45,7 @@ atomic_mass = {'H': 1.00797, 'He': 4.0026, 'Li': 6.941, 'Be': 9.01218, 'B': 10.8
 
 # Function to divide the composition, inserted as a string, into a list using regular expressions
 # lcc: list with the complete composition
+#['Ti', '1', 'Nb', '2'] for Ti1Nb2
 def lcc(composition):
     return re.findall('[A-Z][a-z]?|[0-9]+\.?[0-9]+|\.[0-9]+|[0-9]+', composition)
 
