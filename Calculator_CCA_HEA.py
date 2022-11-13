@@ -152,6 +152,7 @@ def EMix(Cp):
 
 
 # Format the composition to display the result
+#Ti0.333 Nb0.667  converts composition to string
 def format_comp(cp):
     formated = ''
     for i in cp:
