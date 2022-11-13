@@ -99,6 +99,7 @@ def FVEC(Cp):
 
 
 # Function to calculate the mixing entropy of the alloy
+#-RΣ((Xi)*logXi)
 def Mixentropy(Cp):
     Sum = 0
     for i in Cp:
